@@ -1,9 +1,20 @@
 (function () {
   'use strict';
 
+  /* Opt-in to scroll-reveal animations — content is visible without this class */
+  document.documentElement.classList.add('js-reveal');
+
   /* ── Scroll reveal ── */
+  var revealObserver = null;
+
+  function revealAll() {
+    document.querySelectorAll('.reveal:not(.revealed)').forEach(function (el) {
+      el.classList.add('revealed');
+    });
+  }
+
   function initScrollReveal() {
-    var els = document.querySelectorAll('.reveal');
+    var els = document.querySelectorAll('.reveal:not(.revealed)');
     if (!els.length) return;
 
     if (!('IntersectionObserver' in window)) {
@@ -11,19 +22,22 @@
       return;
     }
 
-    var observer = new IntersectionObserver(
-      function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('revealed');
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.08, rootMargin: '0px 0px -40px 0px' }
-    );
+    /* Reuse observer if already created */
+    if (!revealObserver) {
+      revealObserver = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('revealed');
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.06, rootMargin: '0px 0px -32px 0px' }
+      );
+    }
 
-    els.forEach(function (el) { observer.observe(el); });
+    els.forEach(function (el) { revealObserver.observe(el); });
   }
 
   /* ── Header scroll ── */
@@ -98,11 +112,12 @@
 
   document.addEventListener('sections:loaded', init);
 
-  /* Fallback if event fires before listener attaches */
+  /* Safety net: if sections:loaded never fires, run init after 3 s */
+  var initFired = false;
+  document.addEventListener('sections:loaded', function () { initFired = true; });
   setTimeout(function () {
-    initScrollReveal();
-    initHeaderScroll();
-    updateYear();
-    initMobileBar();
-  }, 2000);
+    if (!initFired) { init(); }
+    /* Always force-reveal any stuck elements after 5 s */
+  }, 3000);
+  setTimeout(revealAll, 5000);
 })();
