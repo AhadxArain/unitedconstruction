@@ -86,17 +86,6 @@
           <p class="form-footnote">* Required fields. This form is a demonstration — submissions have not been connected to delivery.</p>
         </form>
 
-        <div class="form-success" id="form-success" hidden role="status" aria-live="polite">
-          <svg class="form-success-icon" aria-hidden="true" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="9 12 11 14 15 10"/></svg>
-          <h3 class="form-success-title">Inquiry Submitted</h3>
-          <p class="form-success-body">
-            This demonstration form is ready to be connected to the company's preferred email or CRM. Your entry has not yet been delivered.
-          </p>
-          <p class="form-success-body" style="margin-top:0.75rem">For immediate assistance, call directly:</p>
-          <a href="tel:+19494228484" class="btn btn-primary" style="margin-top:1.5rem">
-            Call (949) 422 8484
-          </a>
-        </div>
       </div>
     </div>
   </div>

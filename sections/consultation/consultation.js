@@ -1,8 +1,7 @@
 (function () {
   'use strict';
 
-  var form    = document.getElementById('consult-form');
-  var success = document.getElementById('form-success');
+  var form = document.getElementById('consult-form');
 
   if (!form) return;
 
@@ -66,12 +65,5 @@
       }
     });
 
-    if (!ok) return;
-
-    form.hidden = true;
-    if (success) {
-      success.hidden = false;
-      success.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
   });
 })();
