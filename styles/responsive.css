@@ -8,12 +8,7 @@ img, video, iframe {
   max-width: 100%;
 }
 
-/* ── Mobile bottom spacing for fixed action bar ── */
 @media (max-width: 767px) {
-  body {
-    padding-bottom: 76px;
-  }
-
   /* Safe minimum touch targets */
   a, button, [role="button"] {
     min-height: 44px;

@@ -11,16 +11,10 @@
   padding: 0.6rem var(--space-sm);
   padding-bottom: max(0.6rem, env(safe-area-inset-bottom, 0.6rem));
   gap: 0.5rem;
-  transition: transform 0.3s ease;
 }
 
 @media (max-width: 767px) {
   .mobile-action-bar { display: flex; }
-}
-
-.mobile-action-bar.bar-hidden {
-  transform: translateY(110%);
-  pointer-events: none;
 }
 
 .mbar-btn {
@@ -36,10 +30,7 @@
   text-decoration: none;
   min-height: 52px;
   border-radius: var(--radius-sm);
-  transition: background-color var(--trans-base), transform var(--trans-fast);
 }
-
-.mbar-btn:active { transform: scale(0.97); }
 
 .mbar-btn--primary {
   background: var(--clr-copper);

@@ -84,13 +84,14 @@
 
   var loadedCss = {};
   var loadedJs  = {};
+  var assetVersion = '3';
 
   function loadCss(href) {
     if (loadedCss[href]) return Promise.resolve();
     return new Promise(function (resolve) {
       var link = document.createElement('link');
       link.rel  = 'stylesheet';
-      link.href = href;
+      link.href = href + '?v=' + assetVersion;
       link.onload = function () { loadedCss[href] = true; resolve(); };
       link.onerror = function () {
         console.warn('[SectionLoader] CSS failed:', href);
@@ -104,7 +105,7 @@
     if (loadedJs[src]) return Promise.resolve();
     return new Promise(function (resolve) {
       var script = document.createElement('script');
-      script.src = src;
+      script.src = src + '?v=' + assetVersion;
       script.onload = function () { loadedJs[src] = true; resolve(); };
       script.onerror = function () {
         console.warn('[SectionLoader] JS failed:', src);
