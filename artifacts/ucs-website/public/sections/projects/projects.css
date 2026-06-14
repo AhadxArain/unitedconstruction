@@ -116,3 +116,8 @@
   transition: color var(--trans-base);
 }
 .proj-link:hover { color: var(--clr-copper-dark); }
+
+@media (max-width: 639px) {
+  .proj-item--tall .proj-img-wrap { aspect-ratio: 16/9; }
+  .proj-grid { gap: var(--space-sm); }
+}

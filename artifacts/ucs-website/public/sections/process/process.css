@@ -80,3 +80,14 @@
   transition: letter-spacing var(--trans-base);
 }
 .step-cta:hover { letter-spacing: 0.14em; }
+
+@media (max-width: 767px) {
+  .process-step {
+    padding: var(--space-md) var(--space-lg);
+    gap: var(--space-sm);
+  }
+  .step-num {
+    font-size: clamp(2.5rem, 9vw, 3.5rem);
+    min-width: 2.5rem;
+  }
+}

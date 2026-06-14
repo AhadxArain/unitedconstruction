@@ -99,6 +99,14 @@
   border-top: 1px solid var(--clr-border-light);
 }
 
+@media (max-width: 767px) {
+  .about-img-wrap { aspect-ratio: 3/2; }
+  .about-stat {
+    align-self: stretch;
+    justify-content: flex-start;
+  }
+}
+
 @media (max-width: 479px) {
   .about-details { grid-template-columns: 1fr; }
 }

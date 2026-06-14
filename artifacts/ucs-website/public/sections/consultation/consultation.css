@@ -222,3 +222,12 @@
   line-height: 1.72;
   max-width: 360px;
 }
+
+@media (max-width: 767px) {
+  .consult-form-wrap { padding: var(--space-lg) var(--space-md); }
+}
+
+@media (max-width: 479px) {
+  .consult-form-wrap { padding: var(--space-md); }
+  .form-success { padding: var(--space-xl) var(--space-md); min-height: 300px; }
+}

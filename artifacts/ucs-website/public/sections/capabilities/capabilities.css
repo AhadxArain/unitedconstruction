@@ -21,8 +21,20 @@
   margin-bottom: var(--space-xl);
 }
 
+@media (min-width: 560px) and (max-width: 767px) {
+  .cap-grid { grid-template-columns: 1fr 1fr; }
+}
+
 @media (min-width: 768px) {
   .cap-grid { grid-template-columns: repeat(3,1fr); }
+}
+
+@media (max-width: 559px) {
+  .cap-card { padding: var(--space-lg) var(--space-md); }
+  .cap-num  {
+    font-size: clamp(3rem, 10vw, 4rem);
+    margin-bottom: var(--space-sm);
+  }
 }
 
 .cap-card {

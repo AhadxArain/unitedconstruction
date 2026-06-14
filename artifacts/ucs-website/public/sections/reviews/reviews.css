@@ -91,3 +91,12 @@
   flex-wrap: wrap;
   gap: var(--space-sm);
 }
+
+@media (max-width: 767px) {
+  .reviews-badge {
+    padding: var(--space-xl);
+  }
+  .reviews-score {
+    font-size: clamp(3.5rem, 12vw, 5rem);
+  }
+}
