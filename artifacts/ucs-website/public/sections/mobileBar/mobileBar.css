@@ -1,0 +1,61 @@
+/* ── Mobile Action Bar ── */
+.mobile-action-bar {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 800;
+  background: var(--clr-charcoal);
+  border-top: 1px solid var(--clr-border-light);
+  padding: 0.6rem var(--space-sm);
+  padding-bottom: max(0.6rem, env(safe-area-inset-bottom, 0.6rem));
+  gap: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 767px) {
+  .mobile-action-bar { display: flex; }
+}
+
+.mobile-action-bar.bar-hidden {
+  transform: translateY(110%);
+  pointer-events: none;
+}
+
+.mbar-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: var(--ff-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  min-height: 52px;
+  border-radius: var(--radius-sm);
+  transition: background-color var(--trans-base), transform var(--trans-fast);
+}
+
+.mbar-btn:active { transform: scale(0.97); }
+
+.mbar-btn--primary {
+  background: var(--clr-copper);
+  color: var(--clr-offwhite);
+}
+.mbar-btn--primary:hover {
+  background: var(--clr-copper-dark);
+  color: var(--clr-offwhite);
+}
+
+.mbar-btn--secondary {
+  background: var(--clr-steel);
+  color: var(--clr-offwhite);
+  border: 1px solid var(--clr-border-light);
+}
+.mbar-btn--secondary:hover {
+  background: rgba(243,240,233,0.1);
+  color: var(--clr-offwhite);
+}

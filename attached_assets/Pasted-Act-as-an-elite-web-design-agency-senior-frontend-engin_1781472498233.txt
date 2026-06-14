@@ -1,0 +1,1035 @@
+Act as an elite web design agency, senior frontend engineering team, conversion strategist, construction industry brand specialist, motion designer, accessibility engineer, and responsive quality assurance expert.
+
+Create a complete, polished, premium website demonstration for the following business.
+
+BUSINESS INFORMATION
+
+Business name: United Construction Services Inc
+
+Primary phone number: (949) 422 8484
+
+Telephone link: tel:+19494228484
+
+Address: 6312 Burnham Ave, Buena Park, CA 90621
+
+Verified business categories:
+
+1. Contractor
+
+2. General contractor
+
+3. Concrete contractor
+
+Verified Google Business information:
+
+1. Google rating: 5.0 out of 5
+
+2. Public review count: 2
+
+3. Listed hours: Open 24 hours every day
+
+Public business record information:
+
+1. Business start date: May 9, 2019
+
+2. Based in Buena Park, California
+
+IMPORTANT DATA RULES
+
+Use the phone number (949) 422 8484 throughout the website.
+
+Do not use any conflicting phone number found on another directory.
+
+The Google rating and review count may be displayed exactly as:
+
+5.0 Google Rating
+
+Based on 2 public reviews
+
+Do not invent written customer testimonials because the exact review text is unavailable.
+
+Do not create fake reviewer names.
+
+Do not create fake review quotes.
+
+Do not claim BBB accreditation.
+
+Do not display a BBB rating.
+
+Do not display a contractor license number unless a verified license number is later supplied.
+
+Do not invent:
+
+1. Licenses
+
+2. Awards
+
+3. Certifications
+
+4. Insurance status
+
+5. Bonding status
+
+6. Project quantities
+
+7. Team size
+
+8. Prices
+
+9. Guarantees
+
+10. Named clients
+
+11. Completed projects
+
+12. Financing options
+
+13. Specific service areas outside the confirmed Buena Park location
+
+14. Specific years of combined experience
+
+15. Email addresses
+
+16. Social media profiles
+
+17. Exact project photographs
+
+The business start date may be presented as:
+
+Established in 2019
+
+Treat the listed 24 hour availability as public directory information. Present it carefully as:
+
+Listed as available 24 hours
+
+Do not create exaggerated emergency service promises.
+
+PROJECT PURPOSE
+
+This is a custom website demonstration that will be shown to the business owner during a sales call.
+
+The owner will most likely open the website on a mobile phone.
+
+The website must create a strong professional impression within the first three seconds.
+
+It must make the owner understand that a high quality website could:
+
+1. Strengthen the company’s credibility
+
+2. Make the business easier to contact
+
+3. Present its services professionally
+
+4. Generate project inquiries
+
+5. Make the company look established
+
+6. Provide a stronger online presence than a basic directory listing
+
+This must feel like a premium custom construction website created by a professional design agency.
+
+It must not feel like:
+
+1. A generic construction template
+
+2. A student project
+
+3. A basic HTML exercise
+
+4. An unfinished AI generated website
+
+5. A collection of repetitive cards
+
+6. A technology startup website
+
+7. A cheap theme with random orange colors
+
+8. A desktop website compressed onto mobile
+
+EXECUTION RULE
+
+Do not only create a plan.
+
+Do not ask me to continue.
+
+Do not stop after generating the homepage shell.
+
+Create the complete project directly inside the Replit workspace.
+
+Run the website.
+
+Inspect the result.
+
+Fix all visible layout, loading, responsiveness, animation, path, and console problems before finishing.
+
+TECHNOLOGY
+
+Use only:
+
+1. HTML
+
+2. CSS
+
+3. Vanilla JavaScript
+
+Do not use:
+
+1. React
+
+2. TypeScript
+
+3. Tailwind
+
+4. Bootstrap
+
+5. Vue
+
+6. Angular
+
+7. Next.js
+
+8. Svelte
+
+9. Node frameworks
+
+10. Databases
+
+11. Backend frameworks
+
+12. Component libraries
+
+13. Package managers unless Replit absolutely requires one to serve the static project
+
+14. Heavy animation libraries
+
+15. External JavaScript frameworks
+
+The final website must be a simple static website.
+
+MODULAR FILE STRUCTURE
+
+Do not place the complete website inside one HTML file.
+
+Do not use inline CSS.
+
+Do not use inline JavaScript.
+
+Do not place every section inside index.html.
+
+Create this modular project structure:
+
+index.html
+
+README.txt
+
+assets/
+
+images/
+
+icons/
+
+styles/
+
+reset.css
+
+variables.css
+
+global.css
+
+utilities.css
+
+responsive.css
+
+scripts/
+
+sectionLoader.js
+
+main.js
+
+sections/
+
+header/
+
+header.html
+
+header.css
+
+header.js
+
+hero/
+
+hero.html
+
+hero.css
+
+hero.js
+
+trust/
+
+trust.html
+
+trust.css
+
+capabilities/
+
+capabilities.html
+
+capabilities.css
+
+about/
+
+about.html
+
+about.css
+
+process/
+
+process.html
+
+process.css
+
+projects/
+
+projects.html
+
+projects.css
+
+projects.js
+
+reviews/
+
+reviews.html
+
+reviews.css
+
+consultation/
+
+consultation.html
+
+consultation.css
+
+consultation.js
+
+location/
+
+location.html
+
+location.css
+
+finalCta/
+
+finalCta.html
+
+finalCta.css
+
+footer/
+
+footer.html
+
+footer.css
+
+Do not create empty files.
+
+A section that does not require JavaScript must not receive a useless JavaScript file.
+
+Keep section specific styles inside the appropriate section folder.
+
+Keep global styles inside the styles folder.
+
+Keep global behavior inside the scripts folder.
+
+Keep section behavior inside the matching section folder.
+
+Do not combine all CSS after creating the folders.
+
+Do not combine all HTML into index.html.
+
+INDEX AND SECTION LOADING
+
+Use index.html as the main document shell.
+
+Create clear mount points for every section.
+
+Use sectionLoader.js to load the section HTML files in the intended order.
+
+The loader must:
+
+1. Use reliable fetch logic
+
+2. Report failed section loading clearly in the console
+
+3. Continue loading other sections when one section fails
+
+4. Initialize section behavior after its HTML has loaded
+
+5. Prevent duplicate initialization
+
+6. Preserve correct navigation targets
+
+7. Work through the Replit development server
+
+8. Work after static deployment
+
+Load section styles correctly without inline CSS.
+
+Prevent a large flash of unstyled content.
+
+DESIGN DIRECTION
+
+Create a premium industrial editorial visual identity.
+
+The aesthetic should communicate:
+
+1. Strength
+
+2. Precision
+
+3. Structure
+
+4. Reliability
+
+5. Professional execution
+
+6. Modern construction capability
+
+Use an architectural grid based layout with strong typography, carefully controlled spacing, and restrained industrial details.
+
+Recommended color direction:
+
+1. Deep charcoal: #171817
+
+2. Warm off white: #F3F0E9
+
+3. Concrete gray: #B9B5AC
+
+4. Dark steel: #303330
+
+5. Burnished copper accent: #B76432
+
+6. Soft border tone: rgba(23, 24, 23, 0.14)
+
+Use the copper accent selectively.
+
+Do not cover the website in bright safety orange.
+
+Do not use neon colors.
+
+Do not use glassmorphism.
+
+Do not use glowing borders.
+
+Do not use random floating shapes.
+
+Do not use excessive gradients.
+
+Do not use construction hazard stripe clichés.
+
+Use bold condensed or architectural display typography for major headings and a highly readable sans serif for body content.
+
+Limit the design to two font families.
+
+Ensure fonts load efficiently.
+
+TEMPORARY BRAND MARK
+
+No verified logo is currently available.
+
+Create a refined temporary typographic brand mark using the initials UCS and the complete business name.
+
+Build it with HTML and CSS or a simple local SVG.
+
+Do not falsely claim it is the company’s official logo.
+
+Add a note inside README.txt explaining that it is a temporary website demonstration mark and should be replaced when the official logo is supplied.
+
+HERO SECTION
+
+The hero must create immediate impact on mobile and desktop.
+
+Use a strong construction related editorial image with controlled cropping.
+
+The image may show professional concrete work, structural construction, architectural formwork, or a carefully composed commercial construction environment.
+
+Do not use an image containing another company’s branding.
+
+Do not imply that a stock photograph is an actual United Construction Services Inc project.
+
+Use representative imagery only.
+
+Suggested hero message:
+
+Eyebrow:
+
+Buena Park Construction Contractor
+
+Headline:
+
+Construction Built on Clear Execution
+
+Supporting copy:
+
+United Construction Services Inc provides contractor and concrete construction services from Buena Park, California. Call to discuss your project, scope, and next steps.
+
+Primary action:
+
+Call (949) 422 8484
+
+Secondary action:
+
+Request a Project Consultation
+
+Include a compact trust line showing:
+
+5.0 Google rating
+
+Established in 2019
+
+Located in Buena Park
+
+Do not overcrowd the first screen.
+
+On mobile, the business name, headline, location, rating, and call button must be visible quickly.
+
+HEADER
+
+Create a polished responsive header.
+
+Desktop navigation may include:
+
+1. Capabilities
+
+2. About
+
+3. Process
+
+4. Reviews
+
+5. Contact
+
+Include a visible call button.
+
+The mobile menu must:
+
+1. Open smoothly
+
+2. Close smoothly
+
+3. Lock background scrolling
+
+4. Close after selecting a link
+
+5. Close when pressing Escape
+
+6. Use correct accessibility attributes
+
+7. Remain fully usable at 320 pixels
+
+TRUST SECTION
+
+Create a compact premium trust strip using only verified information.
+
+Display:
+
+1. 5.0 Google rating
+
+2. 2 public reviews
+
+3. Established in 2019
+
+4. Buena Park location
+
+5. Listed 24 hour availability
+
+Do not exaggerate the small review count.
+
+Present it honestly and tastefully.
+
+CAPABILITIES SECTION
+
+Use only broadly verified service categories.
+
+Create three capability areas:
+
+1. Concrete Contracting
+
+Supporting text should remain general and should not list unverified specialties.
+
+2. General Contracting
+
+Describe project focused contractor support without promising unverified project types.
+
+3. Project Consultation
+
+Invite customers to call and discuss their scope, timeline, location, and requirements.
+
+Include a clear note:
+
+Contact the company directly to confirm project scope, scheduling, and service availability.
+
+Do not invent driveways, foundations, patios, commercial buildings, demolition, remodeling, or other specific services unless clearly presented as editable placeholders inside the code and not as verified public claims.
+
+ABOUT SECTION
+
+Create professional copy based on the verified information.
+
+Suggested direction:
+
+United Construction Services Inc is a Buena Park based contractor publicly categorized in general contracting and concrete contracting. The company has operated since 2019 and provides a direct phone contact for project discussions.
+
+Keep the writing confident but factual.
+
+Do not claim industry leadership.
+
+Do not claim unmatched quality.
+
+Do not claim decades of experience.
+
+PROCESS SECTION
+
+Create a simple inquiry process that does not fabricate internal business operations.
+
+Use:
+
+1. Start the Conversation
+
+Call or submit a project inquiry.
+
+2. Discuss the Scope
+
+Share the location, goals, and project requirements.
+
+3. Confirm the Next Step
+
+The company can confirm fit, availability, and next actions directly.
+
+Do not claim free estimates unless verified.
+
+Do not claim guaranteed timelines.
+
+PROJECTS SECTION
+
+No verified project portfolio is available.
+
+Create an elegant representative project showcase using royalty free construction imagery.
+
+Clearly label the section:
+
+Representative Construction Imagery
+
+Include a small visible note:
+
+Images shown are design placeholders and do not represent confirmed United Construction Services Inc projects.
+
+Use this section to demonstrate how a real project portfolio would appear after the owner supplies photographs.
+
+Do not create fake project names, locations, budgets, or descriptions.
+
+Use no more than four carefully selected images.
+
+REVIEWS SECTION
+
+Do not generate fake testimonial cards.
+
+Create a refined Google rating section displaying:
+
+5.0 out of 5
+
+Based on 2 public Google reviews
+
+Add a button:
+
+View Google Business Profile
+
+Construct the link using a Google Maps business search for the exact company name and address.
+
+Do not write fake review text.
+
+Do not invent customer names.
+
+Add subtle supporting copy explaining that customers can review the public profile or contact the business directly.
+
+CONSULTATION FORM
+
+Create a polished frontend project inquiry form containing:
+
+1. Full name
+
+2. Phone number
+
+3. Email address
+
+4. Project location
+
+5. Project type
+
+6. Brief project description
+
+7. Preferred contact method
+
+Use accessible labels.
+
+Use correct mobile input types.
+
+Use clear validation.
+
+Since no backend exists, do not pretend to send a real request.
+
+When submitted, display an honest demonstration message such as:
+
+This website demonstration form is ready to connect to the company’s preferred email or customer management system.
+
+Include a visible fallback action to call the business.
+
+Do not create a fake successful submission.
+
+LOCATION SECTION
+
+Display:
+
+United Construction Services Inc
+
+6312 Burnham Ave
+
+Buena Park, CA 90621
+
+(949) 422 8484
+
+Listed as available 24 hours
+
+Include:
+
+1. Get Directions button
+
+2. Call button
+
+3. Embedded or linked map using the exact address
+
+Ensure the map does not create horizontal overflow.
+
+FINAL CALL TO ACTION
+
+Create a bold but restrained final conversion section.
+
+Suggested headline:
+
+Have a Project in Mind?
+
+Supporting copy:
+
+Call United Construction Services Inc to discuss the project, location, and next step.
+
+Primary action:
+
+Call (949) 422 8484
+
+Secondary action:
+
+Send a Project Inquiry
+
+FOOTER
+
+Include:
+
+1. Temporary UCS brand mark
+
+2. Business name
+
+3. Phone number
+
+4. Address
+
+5. Navigation links
+
+6. Current year
+
+7. Demonstration disclaimer inside a subtle footer note
+
+Suggested disclaimer:
+
+Website demonstration using publicly available business information. Service details and project imagery require owner confirmation before public launch.
+
+MOBILE ACTION BAR
+
+Add a premium fixed mobile action bar with exactly two actions:
+
+1. Call Now
+
+2. Project Inquiry
+
+Show it only on appropriate mobile widths.
+
+Ensure it never covers footer content.
+
+Add sufficient bottom spacing to the page.
+
+Respect mobile safe area insets.
+
+MOTION SYSTEM
+
+Create subtle premium motion using CSS and efficient vanilla JavaScript.
+
+Include:
+
+1. Hero content entrance
+
+2. Controlled text reveal
+
+3. Section reveal on scroll
+
+4. Image reveal
+
+5. Button hover and tap feedback
+
+6. Navigation transition
+
+7. Mobile menu animation
+
+8. Subtle project image hover
+
+9. Form feedback
+
+Do not animate every element.
+
+Do not use scroll hijacking.
+
+Do not use cursor followers.
+
+Do not use spinning objects.
+
+Do not use constant floating animation.
+
+Do not delay content visibility.
+
+Ensure content remains visible if JavaScript fails.
+
+Respect prefers reduced motion.
+
+MOBILE RESPONSIVENESS
+
+Mobile is the primary experience.
+
+Design and test at:
+
+1. 320 pixels
+
+2. 360 pixels
+
+3. 375 pixels
+
+4. 390 pixels
+
+5. 412 pixels
+
+6. 430 pixels
+
+7. 768 pixels
+
+8. 1024 pixels
+
+9. 1280 pixels
+
+10. 1440 pixels
+
+At all widths, prevent:
+
+1. Horizontal overflow
+
+2. Text clipping
+
+3. Oversized headings
+
+4. Tiny body text
+
+5. Broken navigation
+
+6. Buttons outside the viewport
+
+7. Small touch targets
+
+8. Images with poor cropping
+
+9. Fixed elements covering content
+
+10. Forms wider than the screen
+
+11. Crushed grids
+
+12. Excessive empty spacing
+
+13. Awkward tablet layouts
+
+14. Content hidden by animation
+
+Use mobile first CSS.
+
+Use fluid typography and spacing through clamp.
+
+Use flexible grids.
+
+Use aspect ratio and object fit.
+
+Do not solve responsiveness using random fixed heights.
+
+PERFORMANCE
+
+Optimize for mobile internet.
+
+Use locally saved optimized images.
+
+Use modern image formats where possible.
+
+Do not load huge source images.
+
+Set image dimensions.
+
+Lazy load images below the first screen.
+
+Do not lazy load the essential hero image.
+
+Keep JavaScript small.
+
+Avoid unnecessary libraries.
+
+Avoid video backgrounds.
+
+Avoid expensive filters and excessive blur.
+
+Prevent layout shifts.
+
+ACCESSIBILITY
+
+Include:
+
+1. Semantic HTML
+
+2. Correct heading structure
+
+3. Keyboard usable navigation
+
+4. Visible focus states
+
+5. Accessible contrast
+
+6. Form labels
+
+7. Meaningful alternative text
+
+8. Accessible menu controls
+
+9. Reduced motion support
+
+10. Touch friendly controls
+
+11. Skip to content link
+
+12. Status messaging for form validation
+
+Do not make essential content dependent on hover.
+
+SEO AND DEMONSTRATION SAFETY
+
+Include:
+
+1. Relevant page title
+
+2. Meta description
+
+3. Open Graph metadata
+
+4. Theme color
+
+5. Correct viewport metadata
+
+6. Local business structured data using only verified facts
+
+7. Proper heading hierarchy
+
+8. Descriptive page content
+
+Because this is a private sales demonstration, add:
+
+noindex, nofollow
+
+Do not include false schema properties.
+
+IMAGE SOURCING
+
+Use royalty free images from a reputable source such as Unsplash or Pexels.
+
+Save the selected images locally inside assets/images.
+
+Do not hotlink large remote images.
+
+Record the original image sources inside README.txt.
+
+Do not use images containing visible competitor logos.
+
+Do not claim the images are actual company projects.
+
+QUALITY ASSURANCE
+
+Before finishing:
+
+1. Run the website
+
+2. Inspect every section
+
+3. Open the browser console
+
+4. Fix all console errors
+
+5. Verify every section path
+
+6. Verify every stylesheet
+
+7. Verify section loading
+
+8. Verify mobile navigation
+
+9. Verify telephone links
+
+10. Verify map and direction links
+
+11. Verify form validation
+
+12. Verify the fixed mobile action bar
+
+13. Verify reduced motion behavior
+
+14. Verify no horizontal overflow exists
+
+15. Verify the layout at all required widths
+
+16. Verify that no fabricated claims appear
+
+17. Verify that no fake review text appears
+
+18. Verify the first mobile screen looks premium
+
+19. Verify the desktop version remains balanced
+
+20. Verify the website is complete rather than partially generated
+
+FINAL RESPONSE
+
+After creating and testing the complete project, provide a concise summary containing:
+
+1. The design direction used
+
+2. The files created
+
+3. The verified business information included
+
+4. The responsive behavior implemented
+
+5. The interactions and animations added
+
+6. The temporary content that requires owner confirmation
+
+7. Confirmation that the website was run and checked for console errors
+
+Do not stop after planning.
+
+Do not ask me to create the files manually.
+
+Create the complete working website directly in the Replit workspace.

@@ -1,0 +1,53 @@
+/* ── Global overflow prevention ── */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+img, video, iframe {
+  max-width: 100%;
+}
+
+/* ── Mobile bottom spacing for fixed action bar ── */
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 76px;
+  }
+
+  /* Safe minimum touch targets */
+  a, button, [role="button"] {
+    min-height: 44px;
+  }
+
+  /* Tighter container on very small screens */
+  .container {
+    padding-inline: 1.25rem;
+  }
+}
+
+@media (max-width: 359px) {
+  :root {
+    --gutter: 1rem;
+  }
+}
+
+/* ── Tablet ── */
+@media (min-width: 768px) and (max-width: 1023px) {
+  :root {
+    --gutter: clamp(1.5rem, 4vw, 2.5rem);
+  }
+}
+
+/* ── Desktop ── */
+@media (min-width: 1024px) {
+  :root {
+    --gutter: clamp(2rem, 3vw, 3rem);
+  }
+}
+
+/* ── Large ── */
+@media (min-width: 1440px) {
+  :root {
+    --gutter: 3rem;
+  }
+}

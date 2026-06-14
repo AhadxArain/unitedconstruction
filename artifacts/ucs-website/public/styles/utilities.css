@@ -1,0 +1,37 @@
+/* ── Screen reader only ── */
+.u-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ── Text ── */
+.u-text-copper   { color: var(--clr-copper); }
+.u-text-concrete { color: var(--clr-concrete); }
+.u-text-offwhite { color: var(--clr-offwhite); }
+.u-text-charcoal { color: var(--clr-charcoal); }
+
+/* ── Backgrounds ── */
+.u-bg-dark  { background-color: var(--clr-charcoal); }
+.u-bg-steel { background-color: var(--clr-steel); }
+.u-bg-light { background-color: var(--clr-offwhite); }
+
+/* ── Flex ── */
+.u-flex        { display: flex; }
+.u-flex-center { display: flex; align-items: center; justify-content: center; }
+.u-flex-between{ display: flex; align-items: center; justify-content: space-between; }
+
+/* ── Grid ── */
+.u-grid { display: grid; }
+
+/* ── Overflow ── */
+.u-overflow-hidden { overflow: hidden; }
+
+/* ── Object fit ── */
+.u-cover { object-fit: cover; width: 100%; height: 100%; }

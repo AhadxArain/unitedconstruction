@@ -1,0 +1,54 @@
+:root {
+  /* ── Colors ── */
+  --clr-charcoal: #171817;
+  --clr-offwhite: #F3F0E9;
+  --clr-concrete: #B9B5AC;
+  --clr-steel: #303330;
+  --clr-copper: #B76432;
+  --clr-copper-dark: #944f25;
+  --clr-border: rgba(23, 24, 23, 0.14);
+  --clr-border-light: rgba(243, 240, 233, 0.12);
+
+  /* ── Typography ── */
+  --ff-display: 'Barlow Condensed', sans-serif;
+  --ff-body: 'Inter', sans-serif;
+
+  /* ── Fluid font sizes ── */
+  --fs-xs:      clamp(0.72rem,  0.68rem + 0.2vw,  0.8rem);
+  --fs-sm:      clamp(0.875rem, 0.83rem + 0.22vw, 0.9375rem);
+  --fs-base:    clamp(1rem,     0.96rem + 0.2vw,  1.0625rem);
+  --fs-md:      clamp(1.0625rem,1rem  + 0.31vw,  1.125rem);
+  --fs-lg:      clamp(1.25rem,  1.1rem + 0.75vw,  1.5rem);
+  --fs-xl:      clamp(1.5rem,   1.3rem + 1vw,     2rem);
+  --fs-2xl:     clamp(2rem,     1.5rem + 2.5vw,   3rem);
+  --fs-3xl:     clamp(2.5rem,   1.8rem + 3.5vw,   4.25rem);
+  --fs-4xl:     clamp(3rem,     2rem   + 5vw,     5.5rem);
+  --fs-display: clamp(3.5rem,   2rem   + 7.5vw,   7.5rem);
+
+  /* ── Fluid spacing ── */
+  --space-xs:  clamp(0.5rem,   0.4rem  + 0.5vw,  0.75rem);
+  --space-sm:  clamp(0.75rem,  0.6rem  + 0.75vw, 1rem);
+  --space-md:  clamp(1rem,     0.8rem  + 1vw,    1.5rem);
+  --space-lg:  clamp(1.5rem,   1.2rem  + 1.5vw,  2.25rem);
+  --space-xl:  clamp(2rem,     1.5rem  + 2.5vw,  3.5rem);
+  --space-2xl: clamp(3rem,     2rem    + 5vw,     6rem);
+  --space-3xl: clamp(4.5rem,   3rem    + 7.5vw,  10rem);
+
+  /* ── Layout ── */
+  --max-w:      1320px;
+  --max-w-text: 680px;
+  --gutter:     clamp(1.25rem, 5vw, 2.5rem);
+
+  /* ── Transitions ── */
+  --trans-fast:   0.15s ease;
+  --trans-base:   0.25s ease;
+  --trans-slow:   0.4s ease;
+  --trans-reveal: 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* ── Borders / radius ── */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+
+  /* ── Header ── */
+  --header-h: 72px;
+}
